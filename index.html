@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dünya Kadınlar Günü</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Günün Kutlu Olsun Kadınım</h1>
+<div class="heart">❤</div>
+
+<div class="btn-area">
+  <div class="btn-row">
+    <button type="button" id="btn-more-butterflies">Kelebekleri Arttır</button>
+    <button type="button" id="btn-more-seda">SEDA yazısını Arttır</button>
+  </div>
+  <button type="button" id="btn-clear" class="btn-clear">Temizle</button>
+</div>
+
+<button type="button" id="btn-flower" class="corner-btn corner-btn--left">Tıkla</button>
+<button type="button" id="btn-letter" class="corner-btn corner-btn--right">Mektubun var!</button>
+
+<div id="flower-overlay" class="flower-overlay" aria-hidden="true"></div>
+
+<div id="letter-overlay" class="letter-overlay" aria-hidden="true">
+  <div class="letter-modal" role="dialog" aria-modal="true" aria-label="Mektup">
+    <div class="envelope" id="envelope">
+      <div class="envelope__back"></div>
+      <div class="envelope__paper">
+        <div class="paper__title">Kadınımın Günü ♥</div>
+        <div class="paper__body">
+   İyi ki varsın bitanem. Yüzündeki tebessüm hiç eksilmesin.
+   Çok güzel gülüyorsun. Gözlerin çok güzel. Bakışların, Saçın, Herşeyin...
+   Çok seviyorum Seni GÜZELİM.  
+   
+
+
+     
+   Günün Kutlu OLSUN ♥
+        </div>
+        <button type="button" id="btn-letter-close" class="letter-close">Geri dön</button>
+      </div>
+      <div class="envelope__front"></div>
+      <div class="envelope__flap"></div>
+    </div>
+  </div>
+</div>
+
+<div id="scene"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
